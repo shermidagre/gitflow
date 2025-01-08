@@ -23,4 +23,20 @@ La rama `exp` es una rama experimental donde se desarrollan nuevas característi
 
 La estructura del proyecto en la rama `exp` sigue el mismo patrón que en la rama principal, con algunas adiciones para las nuevas características:
 
-mi-proyecto │ ├── /src # Código fuente │ ├── /components # Componentes reutilizables │ ├── /pages # Páginas de la aplicación │ ├── /utils # Funciones utilitarias │ ├── /tests # Pruebas automatizadas │ ├── README.md # Documentación del proyecto ├── package.json # Dependencias y scripts
+/mi-proyecto │ ├── /src # Código fuente │ ├── /components # Componentes reutilizables │ ├── /pages # Páginas de la aplicación │ ├── /utils # Funciones utilitarias │ ├── /tests # Pruebas automatizadas │ ├── README.md # Documentación del proyecto ├── package.json # Dependencias y scripts
+
+## Cómo Contribuir
+
+
+Si deseas contribuir a la rama `exp`, sigue estos pasos:
+
+
+1. **Haz un Fork del Repositorio**: Crea una copia del repositorio en tu cuenta de GitHub.
+
+2. **Crea una Nueva Rama**: Desde la rama `exp`, crea una nueva rama para tu funcionalidad:
+
+   ```bash
+
+   git checkout -b feature/nueva-funcionalidad
+    ```
+   
