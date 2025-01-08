@@ -136,4 +136,10 @@ Este documento proporciona una visión general de los últimos avances en inteli
 
 - **Sistemas Autónomos**: Los avances en IA han llevado al desarrollo de coches y drones autónomos, que se están probando en diversos entornos para su uso comercial.
 
-- **Automatización Industrial**: Los robots impulsados por IA se utilizan cada vez más en la fabricación, mejorando la eficiencia y redu
+- **Automatización Industrial**: Los robots impulsados por IA se utilizan cada vez más en la fabricación, mejorando la eficiencia y reduciendo el error humano.
+
+
+## Consideraciones Éticas
+
+
+- **Sesgo y Equidad**: A medida que los sistemas de IA
