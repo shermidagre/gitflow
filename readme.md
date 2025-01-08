@@ -21,7 +21,6 @@ La rama `exp` es una rama experimental donde se desarrollan nuevas característi
 
 ## Estructura del Proyecto
 
-
 La estructura del proyecto en la rama `exp` sigue el mismo patrón que en la rama principal, con algunas adiciones para las nuevas características:
 
 mi-proyecto │ ├── /src # Código fuente │ ├── /components # Componentes reutilizables │ ├── /pages # Páginas de la aplicación │ ├── /utils # Funciones utilitarias │ ├── /tests # Pruebas automatizadas │ ├── README.md # Documentación del proyecto ├── package.json # Dependencias y scripts
