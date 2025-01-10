@@ -51,3 +51,5 @@
 - **Nombres de Ramas**: Utiliza nombres descriptivos para tus ramas que reflejen la funcionalidad o el cambio que estás implementando. Por ejemplo, `feature/login` o `bugfix/header-issue`.
 
 - **Mantén tu Rama Actualizada**: Antes de comenzar a trabajar en una nueva rama, asegúrate de que tu rama principal (como `main`) esté actualizada con los últimos cambios del repositorio remoto.
+
+# estoy en la main
