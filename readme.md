@@ -1,7 +1,7 @@
 # Cambios de Rama
 
 
-## Especificaciones para los Cambios de Rama
+## Especificaciones para los cambios de Rama y creaciones de rama
 
 
 1. **Crear una Nueva Rama**
@@ -52,4 +52,76 @@
 
 - **Mantén tu Rama Actualizada**: Antes de comenzar a trabajar en una nueva rama, asegúrate de que tu rama principal (como `main`) esté actualizada con los últimos cambios del repositorio remoto.
 
+6. **Juntar las ramas**
+
+
+# Juntar Ramas en Git
+
+## 1. Merge
+
+El comando `merge` se utiliza para combinar los cambios de una rama en otra. Existen dos formas de hacer un merge:
+
+
+- **Merge Común**: Combina los cambios de la rama de origen en la rama de destino, creando un nuevo commit de merge.
+
+```bash
+
+  git checkout rama-destino
+
+  git merge rama-origen
+```
+
+    Merge Squash: Combina todos los commits de la rama de origen en un solo commit en la rama de destino. Esto es útil para mantener un historial más limpio.
+
+```bash
+
+git checkout rama-destino
+
+git merge --squash rama-origen
+
+git commit -m "Descripción del cambio"
+```
+
+2. Rebase
+
+El comando rebase se utiliza para aplicar los cambios de una rama sobre otra, reescribiendo el historial de commits. Esto puede hacer que el historial sea más lineal y fácil de seguir.
+
+```bash
+
+git checkout rama-origen
+
+git rebase rama-destino
+```
+
+# Índice de objetivos
+1. [Experimentar con comandos y ramas](#experimentar-con-comandos-y-ramas)
+
+2. [Desarrollar características (features) de manera aislada](#desarrollar-características-features-de-manera-aislada)
+
+3. [Colaborar y trabajar en equipo de forma eficiente](#colaborar-y-trabajar-en-equipo-de-forma-eficiente)
+
+4. [Organizar el código utilizando flujos de trabajo como Git Flow](#organizar-el-código-utilizando-flujos-de-trabajo-como-git-flow)
+
+
+## Objetivos
+
+
+### Experimentar con comandos y ramas
+
+- Descripción sobre la importancia de experimentar con Git.
+
+
+### Desarrollar características (features) de manera aislada
+
+- Explicación sobre cómo trabajar en nuevas características sin afectar el código principal.
+
+
+### Colaborar y trabajar en equipo de forma eficiente
+
+- Detalles sobre cómo Git facilita la colaboración entre desarrolladores.
+
+
+### Organizar el código utilizando flujos de trabajo como Git Flow
+
+- Información sobre el flujo de trabajo Git Flow y su utilidad en proyectos.
 
