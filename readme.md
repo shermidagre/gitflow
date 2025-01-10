@@ -15,3 +15,4 @@ para borrar el nombre de la rama git branch -d (nombre principal que tenia la ra
 para añadir comit en la rama actual git commit -m "primer paso"
 para juntar la rama actual con otra git merge feature
 
+
